@@ -1,0 +1,13 @@
+{
+  "name": "ddos",
+  "version": "1.0.0",
+  "main": "service-monitor.js",
+  "scripts": {
+    "start": "node service-monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
