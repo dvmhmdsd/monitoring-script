@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "service-monitor.js",
   "scripts": {
-    "start": "node service-monitor.js https://jewarrelief.org 'autocannon -c 50000 -d 600 https://jewarrelief.org'",
+    "start": "npm i -g autocannon && node service-monitor.js https://jewarrelief.org 'autocannon -c 50000 -d 600 https://jewarrelief.org'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
