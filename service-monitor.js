@@ -8,8 +8,8 @@ const { URL } = require('url');
 // Configuration
 const SERVICE_URL = process.argv[2] || 'http://localhost:3000';
 const COMMAND_TO_RUN = process.argv[3] || 'echo "Service is now available!"';
-const PING_INTERVAL = 5000; // 5 seconds
-const REQUEST_TIMEOUT = 3000; // 3 seconds
+const PING_INTERVAL = 1000; // 5 seconds
+const REQUEST_TIMEOUT = 60_000; // 3 seconds
 
 console.log(`🔍 Monitoring service: ${SERVICE_URL}`);
 console.log(`📋 Command to run when available: ${COMMAND_TO_RUN}`);
